@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-06T18:30:31 IST" name="Suite" finished-at="2025-11-06T18:30:40 IST" duration-ms="9103">
+    <groups>
+    </groups>
+    <test started-at="2025-11-06T18:30:31 IST" name="Smoke Testing" finished-at="2025-11-06T18:30:40 IST" duration-ms="9103">
+      <class name="com.Tests.TestPIMPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Tests.TestPIMPage@4218d6a3]" started-at="2025-11-06T18:30:31 IST" name="setup" finished-at="2025-11-06T18:30:37 IST" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addEmployeeThenVerify()[pri:0, instance:com.Tests.TestPIMPage@4218d6a3]" started-at="2025-11-06T18:30:37 IST" name="addEmployeeThenVerify" description="Verify that an employee can be added successfully" finished-at="2025-11-06T18:30:40 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeThenVerify -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Tests.TestPIMPage@4218d6a3]" started-at="2025-11-06T18:30:40 IST" name="close" finished-at="2025-11-06T18:30:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.Tests.TestPIMPage -->
+    </test> <!-- Smoke Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
