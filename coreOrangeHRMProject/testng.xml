@@ -5,7 +5,11 @@
 
 
 		<classes>
-			<class name="com.Tests.TestPIMPage" />
+			<class name="com.Tests.TestLoginPage" />
+			
+			<methods>
+         		 <include name="multipleLogin"/>
+       		</methods>
 
 		</classes>
 	</test> <!-- Test -->

@@ -11,10 +11,10 @@ public class LoginPage {
 public static Properties properties;
 	
 	//Web locators
-	private final By by_username=By.name("txtUserName");
-	private final By by_password=By.name("txtPassword");
-	private final By by_signin=By.name("Submit");
-	private final By by_welcomepage=By.xpath("//*[@id=\"option-menu\"]/li[1]");
+	private final static By by_username=By.name("txtUserName");
+	private final static By by_password=By.name("txtPassword");
+	private final static By by_signin=By.name("Submit");
+	private final static By by_welcomepage=By.xpath("//*[@id=\"option-menu\"]/li[1]");
 	
 	
 	public void login()
@@ -30,16 +30,16 @@ public static Properties properties;
 	}
 	
 //Getter functions
-	public By getUsername()  {
+	public static By getUsername()  {
 		return by_username;	
 	}
-	public By getPassword()  {
+	public static By getPassword()  {
 		return by_password;
 	}
-	public By getSignIn() {
+	public static By getSignIn() {
 		return by_signin;
 	}
-	public By getWelcomePage() {
+	public static By getWelcomePage() {
 		return by_welcomepage;
 	}
 

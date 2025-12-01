@@ -13,13 +13,13 @@ public class BasePage {
 	public void setup() 
 	{
 		CommonUtils.readPropertiesFile();
-		CommonUtils.launchBrowserAndNavigateToApp();
+		driver=CommonUtils.launchBrowserAndNavigateToApp();
 	}
 	
 	@AfterTest
 	public void close() 
 	{
-		//driver.quit();
+	//	driver.quit();
 	}
 
 }
